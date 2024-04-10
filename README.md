@@ -6,11 +6,11 @@ As such, it is important that insurers are able to accurately predict claim prob
 in claim prediction results in higher rates which systematically penalizes “good” drivers for the
 mistakes of “bad” drivers. The objective of this project is to build a model that predicts the probability
 that a driver will initiate an auto insurance claim within the next year.
-The data is obtained from the Kaggle Porto Seguro’s Safe Driver Predition competition [1]. The
+The data is obtained from the Kaggle Porto Seguro’s Safe Driver Predition competition. The
 test and train datasets contains features that are labeled (e.g., ind, reg, car, calc) to group them by
 type. They are also labeled by postfix bin to indicate binary features and cat to indicate categorical
 features. Features that are not labeled by this postfix are either continuous or ordinal. Missing
 features were given a value of -1. The target column denotes whether a claim was filed for a
-particular policy holder. A detailed summary of the dataset can be found at [1].
+particular policy holder. A detailed summary of the dataset can be found on Kaggle.
 
 [1]: https://www.kaggle.com/competitions/porto-seguro-safe-driver-prediction/data
